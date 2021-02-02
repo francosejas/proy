@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+web o pagina:
+alumno:
+fecha:
+-->
+
+<head>
+  <title>Titulo en Etiqueta del Navegador</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="00-modelo.css">
+    <style>
+	* {
+		box-sizing:border-box;
+		}
+	body{
+		margin:0px;
+		}
+	div{
+		height:200px;
+	}
+	#cajon{ 
+		display:flex;
+		}
+	#caja1{
+		background-color:yellow;
+		width:33%;
+		}
+	#caja2{
+		background-color:green;
+		width:34%;
+		}
+	#caja3{
+		background-color:red;
+		width:33%;
+		}
+	@media screend and (max-width:600px){
+	#cajon{
+		display:block;
+	}
+	#caja1, #caja2, #caja3{
+		width:100%;
+	}
+	}
+  </style>
+  <script>
+	// seccion de codigo javascript 
+  </script>
+</head>
+
+
+<body>
+<div id="cajon">
+	<div id="caja1">
+	</div>
+	<div id="caja2">
+	</div>
+	<div id="caja3">
+	</div>
+</div>
+<script>
+  // seccion de codigo javascript 
+
+</script>
+</body>
+</html>
