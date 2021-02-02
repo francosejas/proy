@@ -1,2 +1,0 @@
-# proy
-Mala vibra fuera
